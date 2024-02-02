@@ -3,177 +3,145 @@ import { ref } from "vue";
 import waterFall from "./components/waterFall.vue";
 const list = [
   {
-    height: 300,
-    background: "red",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 400,
-    background: "pink",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 500,
-    background: "blue",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "green",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 300,
-    background: "gray",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 400,
-    background: "#CC00FF",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "black",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 100,
-    background: "#996666",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 500,
-    background: "skyblue",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 300,
-    background: "#993366",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 100,
-    background: "#33FF33",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 400,
-    background: "skyblue",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "#6633CC",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 300,
-    background: "#666699",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 300,
-    background: "#66CCFF",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 300,
-    background: "skyblue",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "#CC3366",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "#CC9966",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "#FF00FF",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 500,
-    background: "#990000",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 400,
-    background: "red",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 100,
-    background: "#999966",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "#CCCC66",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 300,
-    background: "#FF33FF",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 400,
-    background: "#FFFF66",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 200,
-    background: "red",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
   {
-    height: 100,
-    background: "skyblue",
-  },
-  {
-    height: 200,
-    background: "#33CC00",
-  },
-  {
-    height: 300,
-    background: "#330033",
-  },
-  {
-    height: 100,
-    background: "#0066CC",
-  },
-  {
-    height: 200,
-    background: "skyblue",
-  },
-  {
-    height: 100,
-    background: "#006666",
-  },
-  {
-    height: 200,
-    background: "yellow",
-  },
-  {
-    height: 300,
-    background: "yellow",
-  },
-  {
-    height: 200,
-    background: "yellow",
-  },
-  {
-    height: 300,
-    background: "yellow",
-  },
-  {
-    height: 100,
-    background: "#33CCFF",
-  },
-  {
-    height: 400,
-    background: "yellow",
-  },
-  {
-    height: 400,
-    background: "yellow",
-  },
-  {
-    height: 200,
-    background: "#33FF00",
-  },
-  {
-    height: 300,
-    background: "yellow",
-  },
-  {
-    height: 100,
-    background: "green",
+    height:Math.floor(Math.random()* 500 + 100),
+    url:`../src/assets/img/${Math.floor(Math.random()*5) + 1}.jpg`,
+    title:'美女'
   },
 ];
+const SingleWidth = ref(Math.floor(Math.random() * 400 + 100))
 </script>
 <template>
-  <waterFall :dataList="list"></waterFall>
+  <waterFall :dataList="list" :SingleWidth="SingleWidth"></waterFall>
 </template>
 
 <style scoped lang='scss'>
